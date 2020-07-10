@@ -1,6 +1,6 @@
 import java.util.*;
 
-class NumberOfNegativeSumArrays
+class NumberOfNegativeSumSubArrays
 {
 	public static void main(String[] args)
 	{
