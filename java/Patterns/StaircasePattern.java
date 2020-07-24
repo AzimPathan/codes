@@ -5,7 +5,7 @@ import java.util.*;
 	     #
 	    ##
 	   ###
-      ####
+	  ####
 	 #####
 	######
 */
@@ -21,18 +21,18 @@ class StaircasePattern
 
 		// For traversing each output line
 		for(i = 0; i < n; i++)
-        {
-        	// For printing spaces
-            for(j = 0; j < n-1-i; j++)
-            {
-                System.out.print(" ");
-            }
-            // For printing hash
-            for(k = 0; k < n-j; k++)
-            {
-                System.out.print("#");
-            }
-            System.out.println();
-        }
+        	{
+		    // For printing spaces
+		    for(j = 0; j < n-1-i; j++)
+		    {
+			System.out.print(" ");
+		    }
+		    // For printing hash
+		    for(k = 0; k < n-j; k++)
+		    {
+			System.out.print("#");
+		    }
+		    System.out.println();
+        	}
 	}
 }
